@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* ^ =============================== Global CSS ==================================== */
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: #1e202b;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #1e202b;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #009AD8;
+    border-radius: 10px;
+    
+}
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* ^ =============================== NavBar CSS ==================================== */
+.navbar{
+    padding: 50px 0px;
+}
+.logo{
+    width: 64px;
+    aspect-ratio: auto 64 / 38;
+    height: 38px;
+}
+.logo-items h1{
+    font-size: 16px;
+}
+.logo-items p{
+    font-size: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    border-color: #009ad8;
+    color: #009ad8;
+    border-radius: 30px;
+    padding: 2px 25px;
+    border: 2px solid #009ad8;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+.nav-link{
+    color: #fff;
+    border-radius: 30px;
+    padding: 2px 25px !important;
+    border: 2px solid transparent;
+    font-weight: 400;
+    transition: 0.5s ease;
+    
+}
+.nav-link:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+    border-radius: 30px;
+    padding: 2px 25px !important;
+    border: 2px solid #009ad8;
+
+}
+
+/* ^ =============================== Section 2 CSS ==================================== */
+.section2-1{
+    background-image: url(../Images/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.form{
+    position: relative;
+    margin-bottom: 70px;
+    left: -8px;
+}
+.form input{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.form button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}
+.weather-cont{
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    
+}
+.item{
+    background-color: #323544;
+}
+.item2{
+    background-color: #262936;
+}
+.item-cont-1{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-weight: 400;
+}
+.item-cont-2{
+    padding: 50px 20px 15px;
+}
+.item-cont-2 h2{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.item-cont-2 .temp h3{
+    font-size: 5.0285714286rem;
+    /* margin-right: 30px; */
+    color: white;
+    font-weight: 700;
+}
+.item-cont-2 img{
+    width: 90px;
+}
+
+.item-cont-2 a{
+    color: #009AD8;
+    margin: 20px 0;
+}
+.item-cont-2 span{
+    margin-right: 20px;
+    font-weight: 400;
+}
+.item-cont-2 span img{
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
+}
+.item-container{
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.item-container img{
+    margin-bottom: 20px;
+}
+.item-container h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.item-container p{
+    font-size: 1.0428571429em;
+    font-weight: 400;
+}
+.item-container span{
+    color: #009ad8;
+    margin: 20px 0;
+}
+/* ^ =============================== Footer CSS ==================================== */
+.footer{
+    background-color: #262936;
+    padding: 50px 0;
+}
+.form-cont{
+    margin-bottom: 30px;
+}
+.sub-input{
+    padding: 20px 100px 20px 20px;
+    background-color: #1e202b;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.sub-btn{
+    border: none;
+    background: #009ad8;
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    margin-right: 7px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.icon i{
+    font-size: 1.4285714286em;
+    color: #009ad8;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: #009ad8;
+}
+.icon:hover i{
+    color: #fff;
+}
+.footer p{
+    font-weight: 400;
+}
+
+/* ^ =============================== Media Quary ==================================== */
+
+@media screen and (max-width: 992px){
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+    .navbar-toggler-icon  i {
+        color: #fff;
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        border: 2px solid transparent;
+        padding: 7px;
+        border-radius: 40px;
+    }
+    .navbar-toggler:focus{
+        border: 2px solid #009ad8;
+        padding: 7px;
+        border-radius: 40px;
+    }
+    .navbar-collapse{
+        margin-top: 15px;
+        text-align: center;
+        border-radius: 10px !important;
+    }
+    .navbar-nav{
+        border-radius: 10px !important;
+    }
+    .nav-item{
+        padding: 20px !important;
+        background-color: #262936;
+        border-bottom: 2px rgba(255, 255, 255, 0.1) solid;
+        margin-left: 0px;        
+    }
+    .nav-link:hover{
+        border: 0px solid #009ad8;
+    
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        border: 0px solid #009ad8;
+    }
+    .nav-link{
+        border: 0px solid transparent; 
+    }
+}
+
+@media screen and (max-width:768px){
+    .inner-icons{   
+        margin: auto !important;
+        margin-bottom: 10px !important;
+    }
+}
