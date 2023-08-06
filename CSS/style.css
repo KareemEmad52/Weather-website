@@ -274,6 +274,9 @@ body{
     .nav-link{
         border: 0px solid transparent; 
     }
+    .form{
+        left: 0px;
+    }
 }
 
 @media screen and (max-width:768px){
